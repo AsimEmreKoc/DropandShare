@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.hero {
+    background-color: #333;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: white;
+    color: #333;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.feature {
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+
+
+
+.form-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-container .link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-container .link a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+/* upload.php */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+/* Hero alanı */
+.upload-hero {
+    background: linear-gradient(135deg, #333, #333);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.upload-hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.upload-hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Upload formu */
+.upload-container {
+    max-width: 500px;
+    background-color: white;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.upload-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.upload-form label {
+    display: block;
+    font-weight: 600;
+    margin: 20px 0 8px;
+}
+
+.upload-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    border-radius: 6px;
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+.upload-form input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.upload-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.upload-form button:hover {
+    background-color: #333;
+}
+
+.back-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-link a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}

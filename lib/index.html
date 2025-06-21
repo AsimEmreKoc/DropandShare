@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Drop&Share</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #333;
+            color: #eee;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #444, #222);
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-weight: 900;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+            user-select: none;
+        }
+
+        .hero p {
+            font-weight: 300;
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto 40px;
+            color: #ccc;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #eee;
+            color: #333;
+            font-weight: 700;
+            padding: 16px 40px;
+            border-radius: 50px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+            transition: background-color 0.3s ease, color 0.3s ease;
+            user-select: none;
+        }
+
+        .btn:hover {
+            background-color: #555;
+            color: #eee;
+            cursor: pointer;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 60px 20px;
+            background-color: #222;
+            gap: 40px;
+        }
+
+        .feature {
+            background-color: #444;
+            padding: 30px 25px;
+            border-radius: 15px;
+            max-width: 280px;
+            flex: 1 1 280px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            user-select: none;
+        }
+
+        .feature:hover {
+            background-color: #555;
+            transform: translateY(-6px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+            cursor: default;
+        }
+
+        .feature h2 {
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #eee;
+        }
+
+        .feature p {
+            color: #ccc;
+            font-weight: 300;
+        }
+
+        @media (max-width: 900px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+                padding: 40px 15px;
+                gap: 30px;
+            }
+            .feature {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .hero h1 {
+                font-size: 2.4rem;
+            }
+            .hero p {
+                font-size: 1.1rem;
+            }
+            .btn {
+                padding: 14px 30px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Drop&amp;Share</h1>
+        <p>Dosyalarınızı güvenle yükleyin, paylaşın ve yönetin.</p>
+        <a href="login.php" class="btn">Hemen Başla</a>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Kolay Kayıt</h2>
+            <p>Sadece birkaç adımda üye olun.</p>
+        </div>
+        <div class="feature">
+            <h2>Dosya Yükleme</h2>
+            <p>Belgelerinizi, görsellerinizi güvenle yükleyin.</p>
+        </div>
+        <div class="feature">
+            <h2>Yönetim Paneli</h2>
+            <p>Yüklediğiniz dosyaları yönetin ve paylaşın.</p>
+        </div>
+    </section>
+
+</body>
+</html>
+
